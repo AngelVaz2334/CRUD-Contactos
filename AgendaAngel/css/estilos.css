@@ -1,0 +1,326 @@
+/*
+Hoja de estilo responsiva con transiciones
+Autor:
+*/
+/* Contenedor para hacer scroll horizontal si es necesario */
+.responsive-table {
+    overflow-x: auto;
+    width: 100%;
+}
+
+/* Tabla estilos básicos */
+.tabla-contactos {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 600px; /* evita que se colapse demasiado */
+}
+
+/* Cabecera de tabla */
+.tabla-contactos th {
+    background-color: #00c9a7;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Celdas */
+.tabla-contactos td {
+    padding: 10px;
+    background-color: #f9f9f9;
+    word-break: break-word; /* corta textos largos */
+    white-space: normal;    /* permite salto de línea */
+}
+
+/* Formularios dentro de la tabla */
+.tabla-contactos form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Botones dentro de "Acciones" */
+.tabla-contactos input[type="submit"],
+.tabla-contactos input[type="button"] {
+    padding: 5px;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+/* Enlaces */
+a:link {
+	color: DarkCyan;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+a:visited {
+	color: BlueViolet;
+	font-weight: lighter;
+}
+a:hover {
+	color: DarkMagenta;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a.menu {
+	display: block;
+	padding: 0.5em;
+}
+
+/* Párrafos */
+p {
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+	border: medium inset LightSkyBlue;
+	border-radius: 5px;
+}
+p.otro {
+	border-style: outset;
+}
+
+/* Cuerpo del documento */
+body {
+	font-family: Verdana, Helvetica, Arial, "Times New Roman", sans-serif;
+	color: Navy;
+	margin: 0.5em;
+	background-color: #f9f9f9;
+}
+
+.tabla-centro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* Estilos atractivos para tabla de contactos */
+.tabla-contactos {
+	margin: 20px auto;
+	border-collapse: collapse;
+	width: 90%;
+	max-width: 800px;
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	border-radius: 8px;
+	overflow: hidden;
+	text-align: center;
+}
+@media screen and (max-width:800px){
+	header {
+		height: auto;
+		font-size:1.2em;
+	}
+	nav{
+		text-align:center;
+	}
+	section, 
+	aside {
+		float: none;
+		width: 95%;
+		margin:10px 0;
+	}
+	nav li{
+		display: block;
+		margin: 5px 0;
+	}
+	footer{
+		text-align:center;
+		margin: 0 auto;
+		padding: 1em;
+	}
+	div{
+		width: 100%;
+		margin: 0 auto;
+	}
+	table{
+		width: 100%;
+		font-size:0.9em;
+	}
+}
+.tabla-contactos th {
+	background-color: #0bd3a8;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 12px;
+}
+
+.tabla-contactos tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.tabla-contactos tr:hover {
+	background-color: #e0f7fa;
+}
+
+.tabla-contactos td {
+	padding: 10px 15px;
+	border: 1px solid #ddd;
+}
+
+.formEliminar {
+	display: inline;
+}
+
+/* Encabezado */
+header {
+	padding: 1em;
+	color: black; /* Texto negro */
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: rgb(11, 211, 168);
+	text-transform: capitalize;
+	text-shadow: 0.1em 0.1em 0.3em DarkMagenta;
+	text-align: center;
+}
+
+/* Logo */
+figure.logo {
+	display: inline-block;
+	margin: 0;
+}
+img.logo {
+	width: 70px;
+	height: 70px;
+}
+
+/* Navegación */
+nav {
+	background-color: black;
+	padding: 0.5em 1em;
+	text-align: center;
+}
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+nav li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0.5em;
+	font: bold 14px Verdana, sans-serif;
+}
+
+/* Contenido lateral */
+aside {
+	float: right;
+	width: 220px;
+	margin: 1em 0;
+	padding: 1em;
+	background: rgb(11, 211, 168);
+	color: black; /* Texto negro */
+	box-sizing: border-box;
+}
+
+/* Sección principal */
+section {
+	float: left;
+	width: calc(100% - 260px);
+	min-height: 30em;
+	margin: 1em;
+	padding: 1em;
+	background-color: rgb(210, 210, 190);
+	box-sizing: border-box;
+}
+
+/* Pie de página */
+footer {
+	clear: both;
+	width: 100%;
+	font-size: 0.75em;
+	padding: 1em;
+	background-color: rgb(210, 210, 190);
+	text-align: center;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.login-container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #ffffffdd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    color: #555;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.btn-enviar {
+    width: 100%;
+    background-color: rgb(11, 211, 168); /* Color solicitado */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: rgb(9, 180, 144); /* Tono más oscuro */
+}
+
+/* Título principal */
+#titPral {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 800px) {
+	header {
+		height: auto;
+		text-align: center;
+	}
+
+	nav {
+		float: none;
+		width: 100%;
+	}
+
+	nav li {
+		display: block;
+		margin: 0.5em 0;
+	}
+
+	section,
+	aside {
+		float: none;
+		width: 100%;
+		margin: 0.5em 0;
+	}
+
+	section {
+		min-height: auto;
+	}
+
+	.icono-header {
+		width: 20px;
+		height: 20;
+	}
+}
