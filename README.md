@@ -11,12 +11,12 @@ Con los Servicios activos de Apache y MySQL lo que haremos es poner en nuestro n
 #Descripcion del proyecto
 Mi proyecto es una agenda personal hecha en PHP con conexión a una base de datos MySQL que se llama agenda_usuario. Permite iniciar sesión a los dos usuarios establecidos en la base de datos y gestionar sus propios contactos, incluyendo nombre, dirección, teléfono y correo como tambien haciendo uso del sistema CRUD.
 
-#Capturas de pantalla incial
+# Capturas de pantalla incial
 ![Image](https://github.com/user-attachments/assets/9c3c3196-68ae-4c7f-b98c-fe2497e44046)
 ![Image](https://github.com/user-attachments/assets/a33deb88-0a9e-4636-a535-f5749d534d3a)
 ![Image](https://github.com/user-attachments/assets/7dfd5e3c-763d-47f4-ae15-a603ce3c5679)
 ![Image](https://github.com/user-attachments/assets/0ec1428d-4e07-4228-b439-0089b3e6cd9a)
 
-#Información de contacto del estudiante (nombre completo).
+# Información de contacto del estudiante (nombre completo).
 Angel Ignacio Vazquez Arriaga
 ![Image](https://github.com/user-attachments/assets/4d764162-41cf-44e4-9b8f-7dfa07e1207f)
