@@ -8,7 +8,7 @@ Para instalar la base de datos lo que haremos es Iniciar el Panel de Control de 
 
 Con los Servicios activos de Apache y MySQL lo que haremos es poner en nuestro navegador "localhost/AgendaAngel" para que podamos accedar a la agenda.
 
-#Descripcion del proyecto
+# Descripcion del proyecto
 Mi proyecto es una agenda personal hecha en PHP con conexión a una base de datos MySQL que se llama agenda_usuario. Permite iniciar sesión a los dos usuarios establecidos en la base de datos y gestionar sus propios contactos, incluyendo nombre, dirección, teléfono y correo como tambien haciendo uso del sistema CRUD.
 
 # Capturas de pantalla incial
